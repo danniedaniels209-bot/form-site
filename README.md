@@ -33,6 +33,17 @@ Then visit [http://localhost:8080](http://localhost:8080).
 
 ---
 
+## 🌐 Deploy to Render
+
+A [`render.yaml`](render.yaml) Blueprint is included for zero-config static site deployment:
+
+1. Go to the [Render Dashboard](https://dashboard.render.com/).
+2. Click **New +** > **Blueprint**.
+3. Connect your repository `danniedaniels209-bot/form-site`.
+4. Render will detect `render.yaml` and deploy the static site automatically.
+
+---
+
 ## 📱 Mobile Experience
 
 On phones held upright, the layout rotates 90° for an immersive cinematic wide-aspect experience. Simply rotate your phone to landscape or view naturally with auto-rotate.
